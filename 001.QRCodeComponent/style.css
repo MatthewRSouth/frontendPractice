@@ -1,7 +1,42 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+* {
+    margin: 0;
+    padding: 0;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+:root {
+    --card-primary-color: hsl(0, 0%, 100%);
+    --text-primary-color: black;
+    --background-color: hsl(212, 45%, 89%);
+}
+body {
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    background-color: var(--card-primary-color);
+    justify-self: center;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card {
+    text-align: center;
+}
+.qr-code-img {
+    height: 220px;
+    border-radius: 10px 10px;
+    justify-self: center;
+    padding-top: 10px;
 }
