@@ -14,6 +14,7 @@
     --card-primary-color: hsl(0, 0%, 100%);
     --text-primary-color: black;
     --background-color: hsl(212, 45%, 89%);
+    --subtext-color: hsl(216, 15%, 48%);
 }
 body {
     height: 100vh;
@@ -27,7 +28,7 @@ body {
 .container {
     background-color: var(--card-primary-color);
     justify-self: center;
-    height: 400px;
+    height: 375px;
     width: 250px;
     border-radius: 10px;
 }
@@ -36,7 +37,13 @@ body {
 }
 .qr-code-img {
     height: 220px;
-    border-radius: 10px 10px;
+    border-radius: 20px;
     justify-self: center;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subtext {
+    color: var(--subtext-color);
+    font-size: small;
+    margin-top: auto;
 }
