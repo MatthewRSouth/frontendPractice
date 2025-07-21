@@ -10,7 +10,7 @@ This repository is a collection of my daily front-end challenges. I am building 
 
 | Day | Challenge | Technologies Used | Live Demo | Challenge Link
 
-| 1  | QR Code Component | HTML, CSS | [Live Link]() | https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H 
+| 1  | QR Code Component | HTML, CSS | [Live Link](https://matthewsouth.github.io/frontendPractice/001.QRCodeComponent/) | https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H 
 | 2  | Order Summary Component | HTML, CSS | [Live Link]() | https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 | 3  | Simple To-do List | HTML, CSS, JS | [Live Link]() |
 | 4  | FAQ Accordion | HTML, CSS, JS | [Live Link]() | https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz
