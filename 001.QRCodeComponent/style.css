@@ -14,7 +14,7 @@
     --card-primary-color: hsl(0, 0%, 100%);
     --text-primary-color: black;
     --background-color: hsl(212, 45%, 89%);
-    --subtext-color: hsl(216, 15%, 48%);
+    --subtext-color: hsl(216, 15%, 65%);
 }
 body {
     height: 100vh;
@@ -29,11 +29,12 @@ body {
     background-color: var(--card-primary-color);
     justify-self: center;
     height: 375px;
-    width: 250px;
+    width: 270px;
     border-radius: 10px;
 }
 .card {
     text-align: center;
+    font-size: 13px;
 }
 .qr-code-img {
     height: 220px;
@@ -44,6 +45,15 @@ body {
 }
 .subtext {
     color: var(--subtext-color);
-    font-size: small;
+    font-size: 12px;
     margin-top: auto;
+}
+.attribution {
+    position: relative;
+    top: 275px;
+}
+.text {
+    width: 230px;
+    justify-self: center;
+    margin-top: 0.5rem;
 }
